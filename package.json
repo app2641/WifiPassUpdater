@@ -1,0 +1,14 @@
+{
+  "name": "wifi-password-updater",
+  "version": "0.0.1",
+  "scripts": {
+    "update-wifi-pass": "node src/runner.js src/update-wifi-pass.js"
+  },
+  "author": "app2641 <app2641@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "webdriverio": "^2.2.3",
+    "selenium-standalone": "^2.43.1-2.9.0-1"
+  }
+}
